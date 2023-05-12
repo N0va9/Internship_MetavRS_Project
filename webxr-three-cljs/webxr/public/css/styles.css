@@ -1,0 +1,33 @@
+html,
+body,
+canvas {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  touch-action: none;
+}
+
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2em;
+  line-height: 1.25em;
+
+  background-color: black; /*darkcyan*/
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #19f;
+}
+
+span {
+  color: orange;
+}
+
+a:hover {
+  text-decoration: underline;
+}
